@@ -1,2 +1,6 @@
 #!/bin/bash
+<<<<<<< HEAD
 echo "hello $USERNAME"
+=======
+echo "hello $(whoami)"
+>>>>>>> c31a21b5d44ec722104c049dcfab9312c38efaf4
