@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+#This script displays the content of the current directory in a list format where only the part of the name after the first dash is displayed without displaying hidden files.
+for i in *
+do 
+	if [[ $i == .* ]]
+	then 
+		continue
+	fi
+	part=$(echo "$i" | cut -d '-' -f 2-)
+echo "$part"
+done
