@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-This script displays to infinity and beyond indefinitely with a waiting period of 2 seconds.
+#This script displays to infinity and beyond indefinitely with a waiting period of 2 seconds.
 while true
 do
 	echo "To infinity and beyond"
